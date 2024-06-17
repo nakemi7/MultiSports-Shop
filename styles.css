@@ -1,3 +1,11 @@
+:root {
+    --cor-do-header: #EEC759; 
+    --cor-do-site: #B4B2AF;
+}
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
