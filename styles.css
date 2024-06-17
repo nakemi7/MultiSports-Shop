@@ -1,49 +1,173 @@
 :root {
     --cor-do-header: #EEC759; 
     --cor-do-site: #B4B2AF;
+    --cor-secoes: #F8D87F;
 }
 
-
-
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--cor-do-site);
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
-    text-align: center;
+    background-color: var(--cor-do-header);
+    padding: 5px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+.titulo-site {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 
-nav ul li a {
-    color: white;
+.img-titulo {
+    margin-right: 25px;
+    width: 4%;
+    height: 4%;
+    padding-bottom: 10px;
+}
+
+.link-list {
+    width: 75%;
+    display: flex;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    padding: 10px 0;
+    align-items: center;
+    border-top: solid black 1px;
+}
+
+.link-list a {
     text-decoration: none;
+    color: black;
+    margin: 0 3rem;
+
 }
 
-main {
-    padding: 1em;
+.link-list a:hover {
+    font-size: 30px;
+}
+
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secoes);
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 50%;
+    padding: 2rem;
+    margin: 20px auto;
+}
+
+.devenvolvedores h3 {
+    margin-top: 10px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.descricao p {
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.devs p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sobre-nos h2 {
+    margin-top: 10px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.devs {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    margin: 0px;
+}
+
+.img-dev {
+    width: 60%;
+    height: 200px;
+    border-radius: 10px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: var(--cor-do-header);
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin-bottom: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer img{
+    width: 3%;
+    height: 3%;
+}
+
+.filmes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    margin: 0px;
+}
+
+.titulo-filme {
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+
+.titulo-filme a {
+    text-decoration: none;
+    color: black;
+}
+
+.em-alta h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.surpreenda-se {
+    text-align: center;
+    margin: 4rem;
+}
+
+.surpreenda-se button {
+    width: 35rem;
+    height: 4rem;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px gray;
+    background-color: var(--cor-do-header);
+    color: black;
+    font-size: 28px;     
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    transition: all 1s ease;
+}
+
+.surpreenda-se button:hover {
+    background: #ecbc37;
 }
