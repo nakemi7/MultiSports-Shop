@@ -113,26 +113,26 @@ footer img{
 }
 
 .contato,
-.contact-form {
+.contatoform {
   margin-bottom: 30px;
 }
 
-.contact-form form {
+.contatoform form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
 }
 
-.contact-form input,
-.contact-form textarea,
-.contact-form button {
+.contatoform input,
+.contatoform textarea,
+.contatoform button {
   margin-bottom: 15px;
   padding: 10px;
   font-size: 16px;
 }
 
-.contact-form button {
+.contatoform button {
   background-color: #a42121;
   color: #FCF5ED;
   border: none;
@@ -140,6 +140,6 @@ footer img{
   cursor: pointer;
 }
 
-.contact-form button:hover {
+.contatoform button:hover {
   background-color: #000000;
 }
