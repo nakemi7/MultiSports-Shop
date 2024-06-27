@@ -112,24 +112,34 @@ footer img{
     margin-left: 10px;
 }
 
-.contato {
-    text-align: center;
-    margin: 4rem;
+.contact-info,
+.contact-form {
+  margin-bottom: 30px;
 }
 
-.contato button {
-    width: 35rem;
-    height: 4rem;
-    border-radius: 25px;
-    box-shadow: 2px 2px 2px gray;
-    background-color: var(--cor-do-header);
-    color: black;
-    font-size: 28px;     
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    transition: all 1s ease;
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-.contato button:hover {
-    background: #ecbc37;
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #a42121;
+  color: #FCF5ED;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #000000;
 }
