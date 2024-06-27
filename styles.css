@@ -68,21 +68,8 @@ header div {
     margin: 20px auto;
 }
 
-.devenvolvedores h3 {
-    margin-top: 10px;
-    font-family: "Julius Sans One", sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    margin-left: 10px;
-}
-
 .descricao p {
     margin-left: 20px;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-}
-
-.devs p {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
 }
@@ -92,19 +79,6 @@ header div {
     font-family: "Julius Sans One", sans-serif;
     font-weight: 500;
     font-size: 32px;
-}
-
-.devs {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
-    margin: 0px;
-}
-
-.img-dev {
-    width: 60%;
-    height: 200px;
-    border-radius: 10px;
 }
 
 footer {
@@ -142,19 +116,19 @@ footer img{
     color: black;
 }
 
-.em-alta h2{
+.produtos h2{
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 300;
     margin-left: 10px;
 }
 
-.surpreenda-se {
+.contato {
     text-align: center;
     margin: 4rem;
 }
 
-.surpreenda-se button {
+.contato button {
     width: 35rem;
     height: 4rem;
     border-radius: 25px;
@@ -167,6 +141,6 @@ footer img{
     transition: all 1s ease;
 }
 
-.surpreenda-se button:hover {
+.contato button:hover {
     background: #ecbc37;
 }
