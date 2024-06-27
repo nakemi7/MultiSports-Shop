@@ -24,7 +24,6 @@ header div {
 
 .titulo-site {
     font-size: 3rem;
-    font-family: "Montserrat", sans-serif;
     font-weight: 300;
 }
 
@@ -39,7 +38,6 @@ header div {
     width: 75%;
     display: flex;
     font-size: 26px;
-    font-family: "Montserrat", sans-serif;
     margin: 0 auto;
     padding: 10px 0;
     align-items: center;
@@ -59,12 +57,10 @@ header div {
 .descricao p {
     margin-left: 20px;
     font-size: 16px;
-    font-family: "Montserrat", sans-serif;
 }
 
 .sobre-nos h2 {
     margin-top: 10px;
-    font-family: "Julius Sans One", sans-serif;
     font-weight: 500;
     font-size: 32px;
 }
@@ -77,7 +73,6 @@ footer {
 
 footer p {
     margin-bottom: 0px;
-    font-family: "Montserrat", sans-serif;
 }
 
 footer img{
@@ -94,7 +89,6 @@ footer img{
 
 .titulo-filme {
     font-size: 28px;
-    font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
 
@@ -105,7 +99,6 @@ footer img{
 }
 
 .produtos h2{
-    font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 300;
     margin-left: 10px;
