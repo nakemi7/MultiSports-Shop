@@ -106,9 +106,7 @@ footer img{
 
 .contato,
 .contatoform {
-    font-size: 32px;
-    font-weight: 300;
-    margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .contatoform form {
