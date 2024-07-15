@@ -60,35 +60,20 @@ header div {
     margin-left: 10px;
 }
 
-footer {
-    background-color: var(--cor-do-header);
-    text-align: center;
-    padding: 1rem 0;
-}
-
-footer p {
-    margin-bottom: 0px;
-}
-
-footer img{
-    width: 3%;
-    height: 3%;
-}
-
-.filmes {
+.prod {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     text-align: center;
     margin: 0px;
 }
 
-.titulo-filme {
+.nome {
     font-size: 28px;
     font-weight: 400;
 }
 
 
-.titulo-filme a {
+.nome a {
     text-decoration: none;
     color: black;
 }
@@ -135,4 +120,19 @@ footer img{
 
 .contatoform button:hover {
   background-color: #000000;
+}
+
+footer {
+    background-color: var(--cor-do-header);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+footer img{
+    width: 3%;
+    height: 3%;
 }
