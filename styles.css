@@ -126,7 +126,7 @@ footer img{
 }
 
 .contatoform button {
-  background-color: #a42121;
+  background-color: var(--cor-do-header);
   color: #FCF5ED;
   border: none;
   border-radius: 5px;
