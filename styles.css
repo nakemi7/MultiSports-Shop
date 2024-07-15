@@ -90,22 +90,15 @@ header div {
 }
 
 .styled-button {
-    background-color: #4CAF50; /* Verde */
+    background-color: var(--cor-do-header);
+    color: #000000;
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 12px;
-    transition: background-color 0.3s ease;
 }
 
 .styled-button:hover {
-    background-color: #45a049;
+    background-color: #000000;
 }
 
 .contato h2{
@@ -141,7 +134,7 @@ header div {
 
 .contatoform button {
   background-color: var(--cor-do-header);
-  color: #FCF5ED;
+  color: #000000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
