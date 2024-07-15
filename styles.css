@@ -99,6 +99,12 @@ footer img{
     margin-left: 10px;
 }
 
+.contato h2{
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
 .contato,
 .contatoform {
     font-weight: 300;
