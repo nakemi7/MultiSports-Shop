@@ -60,6 +60,11 @@ header div {
     margin-left: 10px;
 }
 
+.sobre-nos p {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
 .prod {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
