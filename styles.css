@@ -153,12 +153,3 @@ footer img{
     height: 70%;
     padding-bottom: 10px;
 }
-
-@media screen and (min-width:1024px) {
-    section{
-        display: flex;
-        align-items: center;
-    }
-    
-}
-
