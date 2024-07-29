@@ -65,12 +65,7 @@ header div {
     font-size: 16px;
 }
 
-.prod {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    text-align: center;
-    margin: 0px;
-}
+
 
 .nome {
     font-size: 28px;
@@ -152,4 +147,13 @@ footer img{
     width: 70%;
     height: 70%;
     padding-bottom: 10px;
+}
+
+@media screen and (min-width:1024px) {
+    .prod {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+        margin: 0px;
+    }
 }
